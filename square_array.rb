@@ -8,6 +8,6 @@
 
 def square_array(array)
   squared = []
-t| squared << element ** 2 }  array.each { |elemen
+  array.each { |element| squared << element ** 2 }
   squared
 end
